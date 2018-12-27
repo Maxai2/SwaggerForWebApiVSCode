@@ -1,0 +1,19 @@
+Visual studio code
+
+Extensions c#, c# FixFormat, vscode-icons
+
+terminal -> dotnet new web
+dotnet run
+dotnet watch run
+dotnet restore - update nuget
+dotnet ef migrations add init
+dotnet add package (Swashbuckle.AspNetCore)
+
+
+  <ItemGroup>
+    <!-- <PackageReference Include=> -->
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+dotnet ef dbcontext scaffold 'connectionstring'
