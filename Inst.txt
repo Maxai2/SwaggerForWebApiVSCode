@@ -7,6 +7,7 @@ dotnet run
 dotnet watch run
 dotnet restore - update nuget
 dotnet ef migrations add init
+dotnet ef database update
 dotnet add package (Swashbuckle.AspNetCore)
 
 
